@@ -1,0 +1,6 @@
+[2026-04-26 05:01:06,967] INFO - Epoch [1/3] train_loss=1.2174 val_loss=1.5653 val_iou=0.0028 val_dice=0.0056 val_precision=0.0028 val_recall=0.1599
+[2026-04-26 05:01:07,530] INFO - Saved new best checkpoint at epoch 1 with IoU=0.0028
+[2026-04-26 05:01:10,023] INFO - Epoch [2/3] train_loss=0.9911 val_loss=1.0167 val_iou=0.4058 val_dice=0.5773 val_precision=0.4888 val_recall=0.7049
+[2026-04-26 05:01:10,841] INFO - Saved new best checkpoint at epoch 2 with IoU=0.4058
+[2026-04-26 05:01:13,292] INFO - Epoch [3/3] train_loss=0.8976 val_loss=0.9890 val_iou=0.6358 val_dice=0.7774 val_precision=0.8180 val_recall=0.7406
+[2026-04-26 05:01:14,050] INFO - Saved new best checkpoint at epoch 3 with IoU=0.6358

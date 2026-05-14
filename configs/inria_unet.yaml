@@ -1,0 +1,43 @@
+experiment_name: inria_unet
+
+dataset:
+  name: inria_patch
+  train_manifest: /root/autodl-tmp/project-building/data/processed/inria_patch512_s512/train_patches.csv
+  val_manifest: /root/autodl-tmp/project-building/data/processed/inria_patch512_s512/val_patches.csv
+  batch_size: 8
+  num_workers: 4
+  use_augment: true
+
+model:
+  name: unet
+  in_channels: 3
+  num_classes: 1
+  base_channels: 32
+  dropout: 0.0
+
+train:
+  seed: 42
+  epochs: 40
+  amp: true
+  output_dir: /root/autodl-tmp/project-building/outputs/inria_unet
+  early_stopping_patience: 10
+
+  optimizer:
+    name: adamw
+    lr: 0.001
+    weight_decay: 0.0001
+
+  scheduler:
+    name: cosine
+    t_max: 40
+    eta_min: 1.0e-6
+
+  loss:
+    name: bce_dice
+
+sanity_run:
+  train_samples: 16
+  val_samples: 8
+  batch_size: 4
+  epochs: 2
+  early_stopping_patience: 2

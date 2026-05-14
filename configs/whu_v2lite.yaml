@@ -1,0 +1,48 @@
+experiment_name: whu_v2lite
+
+dataset:
+  name: whu
+  train_manifest: /root/autodl-tmp/project-building/data/meta/whu_train.csv
+  val_manifest: /root/autodl-tmp/project-building/data/meta/whu_val.csv
+  test_manifest: /root/autodl-tmp/project-building/data/meta/whu_test.csv
+  batch_size: 8
+  num_workers: 4
+  use_augment: true
+
+model:
+  name: v2lite
+  in_channels: 3
+  num_classes: 1
+  stem_channels: 64
+  encoder_channels: [96, 192, 384, 512]
+  decoder_channels: [256, 192, 128, 96]
+  dropout: 0.0
+  with_mamba_branch: true
+  global_branch_type: simplified
+  with_bidirectional_gate: true
+  with_boundary_head: false
+
+train:
+  seed: 42
+  epochs: 80
+  amp: false
+  output_dir: /root/autodl-tmp/project-building/outputs/whu_v2lite
+  early_stopping_patience: null
+  grad_clip_norm: 1.0
+
+  optimizer:
+    name: adamw
+    lr: 0.001
+    weight_decay: 0.0001
+
+  scheduler:
+    name: cosine
+    t_max: 80
+    eta_min: 1.0e-6
+
+  loss:
+    name: bce_dice
+
+test:
+  num_visualizations: 8
+  foreground_prefetch_ratio: 0.005

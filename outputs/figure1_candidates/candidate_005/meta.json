@@ -1,0 +1,98 @@
+{
+  "candidate_id": 5,
+  "candidate_dir": "candidate_005",
+  "image_path": "/root/autodl-tmp/project-building/data/raw/WHU-Building/test/image/2_435.tif",
+  "mask_path": "/root/autodl-tmp/project-building/data/raw/WHU-Building/test/label/2_435.tif",
+  "sample_id": "2_435",
+  "narrative_score": 8.049941953016663,
+  "is_prior_qualitative_sample": false,
+  "prior_case_tag": "",
+  "stats": {
+    "fg_ratio": 0.083526611328125,
+    "num_cc": 31,
+    "small_cc": 7,
+    "boundary_complexity": 0.1507329199038189,
+    "bright_bg_ratio": 0.23057174682617188,
+    "dark_near_building_ratio": 0.01863861083984375,
+    "long_thin_bg_count": 3,
+    "luma_std": 0.21547973155975342
+  },
+  "feature_tags": [
+    "small buildings",
+    "complex boundary",
+    "ambiguous bright surface",
+    "road interference",
+    "building shadows"
+  ],
+  "recommendation": "high",
+  "ambiguous_regions": [
+    {
+      "patch_index": 1,
+      "label": "small building / small object",
+      "source": "small_fg",
+      "bbox_rcrc": [
+        0,
+        46,
+        57,
+        109
+      ],
+      "patch_size_hw": [
+        57,
+        63
+      ],
+      "score": 1.4,
+      "area": 349
+    },
+    {
+      "patch_index": 2,
+      "label": "visually similar to building roof",
+      "source": "bright_bg",
+      "bbox_rcrc": [
+        92,
+        64,
+        229,
+        186
+      ],
+      "patch_size_hw": [
+        137,
+        122
+      ],
+      "score": 1.2465,
+      "area": 3786
+    },
+    {
+      "patch_index": 3,
+      "label": "bright non-building surface",
+      "source": "bright_bg",
+      "bbox_rcrc": [
+        0,
+        344,
+        119,
+        512
+      ],
+      "patch_size_hw": [
+        119,
+        168
+      ],
+      "score": 1.0,
+      "area": 8727
+    },
+    {
+      "patch_index": 4,
+      "label": "road-like region",
+      "source": "bright_bg",
+      "bbox_rcrc": [
+        367,
+        63,
+        512,
+        139
+      ],
+      "patch_size_hw": [
+        145,
+        76
+      ],
+      "score": 0.69675,
+      "area": 1587
+    }
+  ]
+}

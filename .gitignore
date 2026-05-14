@@ -1,0 +1,17 @@
+# 模型权重
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# 数据集
+data/
+datasets/
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 环境
+.env

@@ -1,0 +1,10 @@
+[2026-04-14 04:16:25,309] INFO - Starting WHU v2-lite sanity run on device=cuda
+[2026-04-14 04:16:25,309] INFO - Train subset=64, Val subset=16
+[2026-04-14 04:16:25,309] INFO - Model params: total=17831777, trainable=17831777
+[2026-04-14 04:16:33,035] INFO - Epoch [1/4] train_loss=1.3797 val_loss=1.4233 val_iou=0.0000 val_dice=0.0000 val_precision=0.0000 val_recall=0.0000
+[2026-04-14 04:16:33,683] INFO - Saved new best checkpoint at epoch 1 with IoU=0.0000
+[2026-04-14 04:16:34,764] INFO - Epoch [2/4] train_loss=1.1317 val_loss=1.1865 val_iou=0.0000 val_dice=0.0000 val_precision=0.0000 val_recall=0.0000
+[2026-04-14 04:16:36,280] INFO - Epoch [3/4] train_loss=1.0447 val_loss=1.1351 val_iou=0.4253 val_dice=0.5967 val_precision=0.8757 val_recall=0.4526
+[2026-04-14 04:16:37,058] INFO - Saved new best checkpoint at epoch 3 with IoU=0.4253
+[2026-04-14 04:16:38,178] INFO - Epoch [4/4] train_loss=0.9890 val_loss=1.1209 val_iou=0.5607 val_dice=0.7185 val_precision=0.9250 val_recall=0.5874
+[2026-04-14 04:16:39,012] INFO - Saved new best checkpoint at epoch 4 with IoU=0.5607

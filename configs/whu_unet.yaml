@@ -1,0 +1,43 @@
+experiment_name: whu_unet
+
+dataset:
+  name: whu
+  train_manifest: /root/autodl-tmp/project-building/data/meta/whu_train.csv
+  val_manifest: /root/autodl-tmp/project-building/data/meta/whu_val.csv
+  batch_size: 8
+  num_workers: 4
+  use_augment: true
+
+model:
+  name: unet
+  in_channels: 3
+  num_classes: 1
+  base_channels: 32
+  dropout: 0.0
+
+train:
+  seed: 42
+  epochs: 30
+  amp: true
+  output_dir: /root/autodl-tmp/project-building/outputs/whu_unet
+  early_stopping_patience: 8
+
+  optimizer:
+    name: adamw
+    lr: 0.001
+    weight_decay: 0.0001
+
+  scheduler:
+    name: cosine
+    t_max: 30
+    eta_min: 1.0e-6
+
+  loss:
+    name: bce_dice
+
+sanity_run:
+  train_samples: 16
+  val_samples: 8
+  batch_size: 4
+  epochs: 2
+  early_stopping_patience: 2

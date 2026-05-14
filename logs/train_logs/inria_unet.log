@@ -1,0 +1,13 @@
+[2026-04-14 00:57:41,744] INFO - Using device: cuda
+[2026-04-14 00:57:45,361] INFO - Train samples: 12162
+[2026-04-14 00:57:45,361] INFO - Val samples: 2225
+[2026-04-14 00:57:45,361] INFO - Model: unet
+[2026-04-14 00:57:45,361] INFO - Loss: bce_dice
+[2026-04-14 00:57:45,361] INFO - Dry-run finished successfully.
+[2026-04-14 01:19:35,851] INFO - Using device: cuda
+[2026-04-14 01:19:37,403] INFO - Train samples: 12162
+[2026-04-14 01:19:37,403] INFO - Val samples: 2225
+[2026-04-14 01:19:37,403] INFO - Model: unet
+[2026-04-14 01:19:37,404] INFO - Model params: total=7763041 trainable=7763041
+[2026-04-14 01:19:37,404] INFO - Loss: bce_dice
+[2026-04-14 01:19:37,404] INFO - Dry-run finished successfully.

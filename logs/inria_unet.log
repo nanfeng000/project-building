@@ -1,0 +1,121 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+[2026-04-15 14:20:45,308] INFO - Starting inria_unet_baseline on device=cuda
+[2026-04-15 14:20:45,308] INFO - Train=12162 Val=2225 Test=0 Params=7763041
+[2026-04-15 14:22:41,286] INFO - Epoch [1/80] train_loss=0.7929 val_loss=0.6608 val_iou=0.5687 val_dice=0.7251 val_precision=0.8273 val_recall=0.6454
+[2026-04-15 14:22:41,541] INFO - Saved new best checkpoint at epoch 1 with IoU=0.5687
+[2026-04-15 14:24:37,618] INFO - Epoch [2/80] train_loss=0.6022 val_loss=0.5375 val_iou=0.6652 val_dice=0.7990 val_precision=0.7812 val_recall=0.8176
+[2026-04-15 14:24:38,016] INFO - Saved new best checkpoint at epoch 2 with IoU=0.6652
+[2026-04-15 14:26:34,581] INFO - Epoch [3/80] train_loss=0.5316 val_loss=0.5762 val_iou=0.6163 val_dice=0.7626 val_precision=0.8636 val_recall=0.6828
+[2026-04-15 14:28:31,127] INFO - Epoch [4/80] train_loss=0.4990 val_loss=0.4731 val_iou=0.6965 val_dice=0.8211 val_precision=0.8405 val_recall=0.8026
+[2026-04-15 14:28:31,449] INFO - Saved new best checkpoint at epoch 4 with IoU=0.6965
+[2026-04-15 14:30:27,774] INFO - Epoch [5/80] train_loss=0.4817 val_loss=0.4570 val_iou=0.7058 val_dice=0.8275 val_precision=0.8318 val_recall=0.8233
+[2026-04-15 14:30:28,192] INFO - Saved new best checkpoint at epoch 5 with IoU=0.7058
+[2026-04-15 14:32:24,397] INFO - Epoch [6/80] train_loss=0.4658 val_loss=0.4520 val_iou=0.7011 val_dice=0.8243 val_precision=0.8246 val_recall=0.8240
+[2026-04-15 14:34:20,776] INFO - Epoch [7/80] train_loss=0.4527 val_loss=0.4557 val_iou=0.7099 val_dice=0.8304 val_precision=0.8439 val_recall=0.8172
+[2026-04-15 14:34:21,142] INFO - Saved new best checkpoint at epoch 7 with IoU=0.7099
+[2026-04-15 14:36:17,430] INFO - Epoch [8/80] train_loss=0.4382 val_loss=0.4107 val_iou=0.7379 val_dice=0.8492 val_precision=0.8327 val_recall=0.8663
+[2026-04-15 14:36:17,876] INFO - Saved new best checkpoint at epoch 8 with IoU=0.7379
+[2026-04-15 14:38:14,003] INFO - Epoch [9/80] train_loss=0.4290 val_loss=0.4200 val_iou=0.7234 val_dice=0.8395 val_precision=0.8307 val_recall=0.8486
+[2026-04-15 14:40:09,926] INFO - Epoch [10/80] train_loss=0.4264 val_loss=0.4010 val_iou=0.7288 val_dice=0.8431 val_precision=0.8595 val_recall=0.8274
+[2026-04-15 14:42:05,856] INFO - Epoch [11/80] train_loss=0.4219 val_loss=0.4498 val_iou=0.7058 val_dice=0.8275 val_precision=0.8679 val_recall=0.7908
+[2026-04-15 14:44:02,429] INFO - Epoch [12/80] train_loss=0.4081 val_loss=0.3926 val_iou=0.7400 val_dice=0.8506 val_precision=0.8429 val_recall=0.8584
+[2026-04-15 14:44:02,779] INFO - Saved new best checkpoint at epoch 12 with IoU=0.7400
+[2026-04-15 14:45:58,453] INFO - Epoch [13/80] train_loss=0.3963 val_loss=0.3841 val_iou=0.7378 val_dice=0.8491 val_precision=0.8642 val_recall=0.8345
+[2026-04-15 14:47:54,640] INFO - Epoch [14/80] train_loss=0.3963 val_loss=0.3901 val_iou=0.7440 val_dice=0.8532 val_precision=0.8301 val_recall=0.8777
+[2026-04-15 14:47:54,997] INFO - Saved new best checkpoint at epoch 14 with IoU=0.7440
+[2026-04-15 14:49:51,679] INFO - Epoch [15/80] train_loss=0.3996 val_loss=0.3980 val_iou=0.7293 val_dice=0.8435 val_precision=0.8425 val_recall=0.8445
+[2026-04-15 14:51:47,892] INFO - Epoch [16/80] train_loss=0.3873 val_loss=0.3774 val_iou=0.7518 val_dice=0.8583 val_precision=0.8481 val_recall=0.8688
+[2026-04-15 14:51:48,214] INFO - Saved new best checkpoint at epoch 16 with IoU=0.7518
+[2026-04-15 14:53:43,974] INFO - Epoch [17/80] train_loss=0.3831 val_loss=0.3715 val_iou=0.7495 val_dice=0.8568 val_precision=0.8554 val_recall=0.8583
+[2026-04-15 14:55:40,243] INFO - Epoch [18/80] train_loss=0.3783 val_loss=0.4262 val_iou=0.7236 val_dice=0.8397 val_precision=0.8023 val_recall=0.8807
+[2026-04-15 14:57:36,555] INFO - Epoch [19/80] train_loss=0.3723 val_loss=0.3924 val_iou=0.7346 val_dice=0.8470 val_precision=0.8376 val_recall=0.8566
+[2026-04-15 14:59:32,745] INFO - Epoch [20/80] train_loss=0.3769 val_loss=0.3759 val_iou=0.7472 val_dice=0.8553 val_precision=0.8163 val_recall=0.8982
+[2026-04-15 15:01:29,026] INFO - Epoch [21/80] train_loss=0.3631 val_loss=0.3612 val_iou=0.7578 val_dice=0.8622 val_precision=0.8396 val_recall=0.8861
+[2026-04-15 15:01:30,019] INFO - Saved new best checkpoint at epoch 21 with IoU=0.7578
+[2026-04-15 15:03:26,209] INFO - Epoch [22/80] train_loss=0.3680 val_loss=0.3593 val_iou=0.7521 val_dice=0.8585 val_precision=0.8739 val_recall=0.8437
+[2026-04-15 15:05:22,833] INFO - Epoch [23/80] train_loss=0.3569 val_loss=0.3542 val_iou=0.7575 val_dice=0.8620 val_precision=0.8578 val_recall=0.8663
+[2026-04-15 15:07:19,264] INFO - Epoch [24/80] train_loss=0.3562 val_loss=0.3694 val_iou=0.7539 val_dice=0.8597 val_precision=0.8431 val_recall=0.8769
+[2026-04-15 15:09:16,760] INFO - Epoch [25/80] train_loss=0.3545 val_loss=0.3606 val_iou=0.7606 val_dice=0.8640 val_precision=0.8584 val_recall=0.8697
+[2026-04-15 15:09:17,048] INFO - Saved new best checkpoint at epoch 25 with IoU=0.7606
+[2026-04-15 15:11:14,354] INFO - Epoch [26/80] train_loss=0.3466 val_loss=0.3492 val_iou=0.7609 val_dice=0.8642 val_precision=0.8674 val_recall=0.8610
+[2026-04-15 15:11:14,660] INFO - Saved new best checkpoint at epoch 26 with IoU=0.7609
+[2026-04-15 15:13:11,104] INFO - Epoch [27/80] train_loss=0.3440 val_loss=0.3522 val_iou=0.7568 val_dice=0.8615 val_precision=0.8624 val_recall=0.8607
+[2026-04-15 15:15:07,966] INFO - Epoch [28/80] train_loss=0.3425 val_loss=0.3497 val_iou=0.7579 val_dice=0.8623 val_precision=0.8687 val_recall=0.8560
+[2026-04-15 15:17:04,844] INFO - Epoch [29/80] train_loss=0.3424 val_loss=0.3392 val_iou=0.7653 val_dice=0.8670 val_precision=0.8585 val_recall=0.8758
+[2026-04-15 15:17:05,208] INFO - Saved new best checkpoint at epoch 29 with IoU=0.7653
+[2026-04-15 15:19:00,929] INFO - Epoch [30/80] train_loss=0.3409 val_loss=0.3487 val_iou=0.7589 val_dice=0.8629 val_precision=0.8803 val_recall=0.8462
+[2026-04-15 15:20:57,246] INFO - Epoch [31/80] train_loss=0.3363 val_loss=0.3414 val_iou=0.7688 val_dice=0.8693 val_precision=0.8658 val_recall=0.8728
+[2026-04-15 15:20:57,606] INFO - Saved new best checkpoint at epoch 31 with IoU=0.7688
+[2026-04-15 15:22:54,210] INFO - Epoch [32/80] train_loss=0.3326 val_loss=0.3381 val_iou=0.7675 val_dice=0.8685 val_precision=0.8739 val_recall=0.8632
+[2026-04-15 15:24:50,307] INFO - Epoch [33/80] train_loss=0.3308 val_loss=0.3308 val_iou=0.7700 val_dice=0.8700 val_precision=0.8617 val_recall=0.8786
+[2026-04-15 15:24:50,719] INFO - Saved new best checkpoint at epoch 33 with IoU=0.7700
+[2026-04-15 15:26:47,626] INFO - Epoch [34/80] train_loss=0.3272 val_loss=0.3485 val_iou=0.7674 val_dice=0.8684 val_precision=0.8712 val_recall=0.8656
+[2026-04-15 15:28:44,141] INFO - Epoch [35/80] train_loss=0.3261 val_loss=0.3357 val_iou=0.7677 val_dice=0.8686 val_precision=0.8507 val_recall=0.8872
+[2026-04-15 15:30:40,717] INFO - Epoch [36/80] train_loss=0.3257 val_loss=0.3313 val_iou=0.7692 val_dice=0.8696 val_precision=0.8617 val_recall=0.8776
+[2026-04-15 15:32:37,927] INFO - Epoch [37/80] train_loss=0.3255 val_loss=0.3429 val_iou=0.7658 val_dice=0.8674 val_precision=0.8660 val_recall=0.8687
+[2026-04-15 15:34:34,889] INFO - Epoch [38/80] train_loss=0.3189 val_loss=0.3406 val_iou=0.7612 val_dice=0.8644 val_precision=0.8791 val_recall=0.8501
+[2026-04-15 15:36:31,960] INFO - Epoch [39/80] train_loss=0.3210 val_loss=0.3293 val_iou=0.7720 val_dice=0.8713 val_precision=0.8586 val_recall=0.8845
+[2026-04-15 15:36:32,346] INFO - Saved new best checkpoint at epoch 39 with IoU=0.7720
+[2026-04-15 15:38:29,619] INFO - Epoch [40/80] train_loss=0.3157 val_loss=0.3409 val_iou=0.7704 val_dice=0.8703 val_precision=0.8637 val_recall=0.8770
+[2026-04-15 15:40:26,901] INFO - Epoch [41/80] train_loss=0.3158 val_loss=0.3259 val_iou=0.7731 val_dice=0.8721 val_precision=0.8677 val_recall=0.8765
+[2026-04-15 15:40:27,208] INFO - Saved new best checkpoint at epoch 41 with IoU=0.7731
+[2026-04-15 15:42:23,946] INFO - Epoch [42/80] train_loss=0.3122 val_loss=0.3238 val_iou=0.7737 val_dice=0.8724 val_precision=0.8662 val_recall=0.8787
+[2026-04-15 15:42:24,335] INFO - Saved new best checkpoint at epoch 42 with IoU=0.7737
+[2026-04-15 15:44:20,964] INFO - Epoch [43/80] train_loss=0.3148 val_loss=0.3291 val_iou=0.7739 val_dice=0.8726 val_precision=0.8713 val_recall=0.8739
+[2026-04-15 15:44:21,336] INFO - Saved new best checkpoint at epoch 43 with IoU=0.7739
+[2026-04-15 15:46:17,986] INFO - Epoch [44/80] train_loss=0.3098 val_loss=0.3207 val_iou=0.7757 val_dice=0.8737 val_precision=0.8724 val_recall=0.8749
+[2026-04-15 15:46:18,421] INFO - Saved new best checkpoint at epoch 44 with IoU=0.7757
+[2026-04-15 15:48:14,900] INFO - Epoch [45/80] train_loss=0.3095 val_loss=0.3278 val_iou=0.7761 val_dice=0.8739 val_precision=0.8669 val_recall=0.8810
+[2026-04-15 15:48:15,258] INFO - Saved new best checkpoint at epoch 45 with IoU=0.7761
+[2026-04-15 15:50:11,318] INFO - Epoch [46/80] train_loss=0.3070 val_loss=0.3260 val_iou=0.7767 val_dice=0.8743 val_precision=0.8656 val_recall=0.8832
+[2026-04-15 15:50:11,665] INFO - Saved new best checkpoint at epoch 46 with IoU=0.7767
+[2026-04-15 15:52:06,779] INFO - Epoch [47/80] train_loss=0.3055 val_loss=0.3246 val_iou=0.7767 val_dice=0.8743 val_precision=0.8650 val_recall=0.8839
+[2026-04-15 15:52:07,140] INFO - Saved new best checkpoint at epoch 47 with IoU=0.7767
+[2026-04-15 15:54:02,053] INFO - Epoch [48/80] train_loss=0.3020 val_loss=0.3196 val_iou=0.7768 val_dice=0.8744 val_precision=0.8681 val_recall=0.8807
+[2026-04-15 15:54:02,343] INFO - Saved new best checkpoint at epoch 48 with IoU=0.7768
+[2026-04-15 15:55:57,552] INFO - Epoch [49/80] train_loss=0.2996 val_loss=0.3200 val_iou=0.7753 val_dice=0.8735 val_precision=0.8789 val_recall=0.8681
+[2026-04-15 15:57:52,629] INFO - Epoch [50/80] train_loss=0.2998 val_loss=0.3216 val_iou=0.7777 val_dice=0.8750 val_precision=0.8752 val_recall=0.8748
+[2026-04-15 15:57:52,902] INFO - Saved new best checkpoint at epoch 50 with IoU=0.7777
+[2026-04-15 15:59:48,260] INFO - Epoch [51/80] train_loss=0.2978 val_loss=0.3148 val_iou=0.7802 val_dice=0.8765 val_precision=0.8737 val_recall=0.8794
+[2026-04-15 15:59:48,571] INFO - Saved new best checkpoint at epoch 51 with IoU=0.7802
+[2026-04-15 16:01:43,384] INFO - Epoch [52/80] train_loss=0.2962 val_loss=0.3197 val_iou=0.7791 val_dice=0.8758 val_precision=0.8778 val_recall=0.8738
+[2026-04-15 16:03:39,238] INFO - Epoch [53/80] train_loss=0.2954 val_loss=0.3198 val_iou=0.7797 val_dice=0.8762 val_precision=0.8733 val_recall=0.8791
+[2026-04-15 16:05:34,988] INFO - Epoch [54/80] train_loss=0.2944 val_loss=0.3152 val_iou=0.7810 val_dice=0.8770 val_precision=0.8729 val_recall=0.8812
+[2026-04-15 16:05:35,341] INFO - Saved new best checkpoint at epoch 54 with IoU=0.7810
+[2026-04-15 16:07:30,692] INFO - Epoch [55/80] train_loss=0.2922 val_loss=0.3126 val_iou=0.7812 val_dice=0.8772 val_precision=0.8701 val_recall=0.8844
+[2026-04-15 16:07:30,987] INFO - Saved new best checkpoint at epoch 55 with IoU=0.7812
+[2026-04-15 16:09:26,320] INFO - Epoch [56/80] train_loss=0.2917 val_loss=0.3191 val_iou=0.7825 val_dice=0.8780 val_precision=0.8722 val_recall=0.8838
+[2026-04-15 16:09:26,712] INFO - Saved new best checkpoint at epoch 56 with IoU=0.7825
+[2026-04-15 16:11:21,868] INFO - Epoch [57/80] train_loss=0.2889 val_loss=0.3187 val_iou=0.7784 val_dice=0.8754 val_precision=0.8793 val_recall=0.8715
+[2026-04-15 16:13:16,801] INFO - Epoch [58/80] train_loss=0.2883 val_loss=0.3101 val_iou=0.7822 val_dice=0.8778 val_precision=0.8731 val_recall=0.8826
+[2026-04-15 16:15:11,544] INFO - Epoch [59/80] train_loss=0.2874 val_loss=0.3120 val_iou=0.7824 val_dice=0.8779 val_precision=0.8757 val_recall=0.8802
+[2026-04-15 16:17:06,785] INFO - Epoch [60/80] train_loss=0.2881 val_loss=0.3107 val_iou=0.7824 val_dice=0.8779 val_precision=0.8741 val_recall=0.8819
+[2026-04-15 16:19:01,428] INFO - Epoch [61/80] train_loss=0.2862 val_loss=0.3154 val_iou=0.7820 val_dice=0.8776 val_precision=0.8719 val_recall=0.8835
+[2026-04-15 16:20:56,354] INFO - Epoch [62/80] train_loss=0.2828 val_loss=0.3123 val_iou=0.7834 val_dice=0.8785 val_precision=0.8726 val_recall=0.8846
+[2026-04-15 16:20:56,701] INFO - Saved new best checkpoint at epoch 62 with IoU=0.7834
+[2026-04-15 16:22:51,011] INFO - Epoch [63/80] train_loss=0.2836 val_loss=0.3126 val_iou=0.7830 val_dice=0.8783 val_precision=0.8724 val_recall=0.8844
+[2026-04-15 16:24:44,972] INFO - Epoch [64/80] train_loss=0.2817 val_loss=0.3161 val_iou=0.7813 val_dice=0.8772 val_precision=0.8795 val_recall=0.8749
+[2026-04-15 16:26:39,366] INFO - Epoch [65/80] train_loss=0.2813 val_loss=0.3135 val_iou=0.7836 val_dice=0.8787 val_precision=0.8774 val_recall=0.8800
+[2026-04-15 16:26:39,661] INFO - Saved new best checkpoint at epoch 65 with IoU=0.7836
+[2026-04-15 16:28:34,596] INFO - Epoch [66/80] train_loss=0.2808 val_loss=0.3085 val_iou=0.7842 val_dice=0.8791 val_precision=0.8756 val_recall=0.8825
+[2026-04-15 16:28:34,967] INFO - Saved new best checkpoint at epoch 66 with IoU=0.7842
+[2026-04-15 16:30:29,501] INFO - Epoch [67/80] train_loss=0.2793 val_loss=0.3079 val_iou=0.7842 val_dice=0.8790 val_precision=0.8749 val_recall=0.8832
+[2026-04-15 16:32:24,442] INFO - Epoch [68/80] train_loss=0.2789 val_loss=0.3066 val_iou=0.7852 val_dice=0.8796 val_precision=0.8745 val_recall=0.8849
+[2026-04-15 16:32:24,761] INFO - Saved new best checkpoint at epoch 68 with IoU=0.7852
+[2026-04-15 16:34:19,082] INFO - Epoch [69/80] train_loss=0.2793 val_loss=0.3110 val_iou=0.7837 val_dice=0.8787 val_precision=0.8733 val_recall=0.8842
+[2026-04-15 16:36:13,903] INFO - Epoch [70/80] train_loss=0.2773 val_loss=0.3099 val_iou=0.7836 val_dice=0.8787 val_precision=0.8723 val_recall=0.8851
+[2026-04-15 16:38:08,701] INFO - Epoch [71/80] train_loss=0.2770 val_loss=0.3126 val_iou=0.7842 val_dice=0.8790 val_precision=0.8717 val_recall=0.8865
+[2026-04-15 16:40:04,211] INFO - Epoch [72/80] train_loss=0.2770 val_loss=0.3153 val_iou=0.7833 val_dice=0.8785 val_precision=0.8796 val_recall=0.8774
+[2026-04-15 16:41:59,682] INFO - Epoch [73/80] train_loss=0.2764 val_loss=0.3133 val_iou=0.7839 val_dice=0.8789 val_precision=0.8753 val_recall=0.8824
+[2026-04-15 16:43:55,581] INFO - Epoch [74/80] train_loss=0.2775 val_loss=0.3116 val_iou=0.7835 val_dice=0.8786 val_precision=0.8784 val_recall=0.8788
+[2026-04-15 16:45:51,015] INFO - Epoch [75/80] train_loss=0.2764 val_loss=0.3083 val_iou=0.7844 val_dice=0.8792 val_precision=0.8774 val_recall=0.8810
+[2026-04-15 16:47:46,171] INFO - Epoch [76/80] train_loss=0.2765 val_loss=0.3073 val_iou=0.7850 val_dice=0.8796 val_precision=0.8739 val_recall=0.8853
+[2026-04-15 16:49:41,587] INFO - Epoch [77/80] train_loss=0.2752 val_loss=0.3119 val_iou=0.7839 val_dice=0.8789 val_precision=0.8775 val_recall=0.8802
+[2026-04-15 16:51:37,286] INFO - Epoch [78/80] train_loss=0.2763 val_loss=0.3114 val_iou=0.7831 val_dice=0.8784 val_precision=0.8775 val_recall=0.8792
+[2026-04-15 16:53:32,497] INFO - Epoch [79/80] train_loss=0.2752 val_loss=0.3120 val_iou=0.7846 val_dice=0.8793 val_precision=0.8749 val_recall=0.8837
+[2026-04-15 16:55:27,893] INFO - Epoch [80/80] train_loss=0.2749 val_loss=0.3119 val_iou=0.7837 val_dice=0.8787 val_precision=0.8777 val_recall=0.8798
+[2026-04-15 16:55:41,396] INFO - Finished inria_unet_baseline. val IoU=0.7851 Dice=0.8796
+Finished inria_unet_baseline: val IoU=0.7851 dice=0.8796

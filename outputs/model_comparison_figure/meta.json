@@ -1,0 +1,48 @@
+{
+  "columns": [
+    "Image",
+    "Ground Truth",
+    "true_vmamba_ss2d+boundary",
+    "simplified+boundary",
+    "DeepLabV3-ResNet50",
+    "U-Net"
+  ],
+  "samples": [
+    "2_256",
+    "2_210",
+    "2_745",
+    "2_776"
+  ],
+  "checkpoints": {
+    "true_vmamba_bnd": "/root/autodl-tmp/project-building/outputs/true_vmamba_boundary_screening/whu_true_vmamba_boundary/checkpoints/best.pth",
+    "simplified_bnd": "/root/autodl-tmp/project-building/outputs/whu_v2lite_boundary/checkpoints/best.pth",
+    "deeplabv3": "/root/autodl-tmp/project-building/outputs/whu_deeplabv3_resnet50_seed42/checkpoints/best.pth",
+    "unet": "/root/autodl-tmp/project-building/outputs/whu_unet_baseline/checkpoints/best.pth"
+  },
+  "boxes": [
+    [
+      442,
+      420,
+      512,
+      490
+    ],
+    [
+      318,
+      167,
+      406,
+      255
+    ],
+    [
+      0,
+      194,
+      96,
+      334
+    ],
+    [
+      413,
+      290,
+      499,
+      376
+    ]
+  ]
+}

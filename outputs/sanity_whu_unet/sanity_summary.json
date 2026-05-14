@@ -1,0 +1,51 @@
+{
+  "config": "/root/autodl-tmp/project-building/configs/whu_unet_sanity.yaml",
+  "epochs_ran": 4,
+  "train_subset": 64,
+  "val_subset": 16,
+  "total_params": 7763041,
+  "trainable_params": 7763041,
+  "train_losses": [
+    1.4579767286777496,
+    1.2822964787483215,
+    1.2191499769687653,
+    1.1752991378307343
+  ],
+  "val_losses": [
+    1.6148737072944641,
+    1.4759554862976074,
+    1.3663530349731445,
+    1.2927184104919434
+  ],
+  "loss_decreased": true,
+  "metrics_available": true,
+  "checkpoint_load_ok": true,
+  "best_checkpoint_epoch": 4,
+  "last_checkpoint_epoch": 4,
+  "best_val_metrics": {
+    "iou": 0.3696195866784116,
+    "dice": 0.5397405093699186,
+    "precision": 0.45795882864515447,
+    "recall": 0.6570811991350795,
+    "loss": 1.2927184104919434,
+    "time_sec": 0.18590331077575684
+  },
+  "prediction_fg_ratios": [
+    0.005321502685546875,
+    0.09351348876953125,
+    0.015087127685546875,
+    0.00501251220703125,
+    0.032421112060546875,
+    0.019580841064453125
+  ],
+  "all_black_predictions": 0,
+  "all_white_predictions": 0,
+  "viz_files": [
+    "whu_val_pred_01_val_1.png",
+    "whu_val_pred_03_val_3.png",
+    "whu_val_pred_06_val_6.png",
+    "whu_val_pred_16_val_16.png",
+    "whu_val_pred_17_val_17.png",
+    "whu_val_pred_28_val_28.png"
+  ]
+}

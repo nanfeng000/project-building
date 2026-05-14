@@ -1,0 +1,30 @@
+[scan] reading 2416 WHU test entries
+[scan] 18 prior qualitative IDs found
+[scan]   processed 250/2416
+[scan]   processed 500/2416
+[scan]   processed 750/2416
+[scan]   processed 1000/2416
+[scan]   processed 1250/2416
+[scan]   processed 1500/2416
+[scan]   processed 1750/2416
+[scan]   processed 2000/2416
+[scan]   processed 2250/2416
+[scan] computed stats for 2416 images
+[pick] top-8 narrative scores: 2_256=8.07, 2_745=8.06, 2_210=8.06, 2_776=8.05, 2_435=8.05, 2_268=8.03, 2_655=8.03, 2_549=8.03
+[done] outputs:
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/summary.md
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/all_candidates_overview.png
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/scan_stats.json
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_001/  (id=2_256, score=8.07, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_002/  (id=2_745, score=8.06, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_003/  (id=2_210, score=8.06, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_004/  (id=2_776, score=8.05, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_005/  (id=2_435, score=8.05, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_006/  (id=2_268, score=8.03, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_007/  (id=2_655, score=8.03, rec=high)
+  - /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_008/  (id=2_549, score=8.03, rec=high)
+
+Top-3 recommended candidate dirs:
+  Top 1: /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_001  (id=2_256)
+  Top 2: /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_002  (id=2_745)
+  Top 3: /root/autodl-tmp/project-building/outputs/figure1_candidates/candidate_003  (id=2_210)

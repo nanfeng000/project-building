@@ -1,0 +1,238 @@
+{
+  "models": {
+    "unet": {
+      "params": 7763041,
+      "ckpt": "/root/autodl-tmp/project-building/outputs/whu_unet_baseline/checkpoints/best.pth",
+      "ckpt_epoch": 69,
+      "iou": 0.8740880164840059,
+      "dice": 0.9328142635732667,
+      "precision": 0.9347510454481319,
+      "recall": 0.9308854910349609,
+      "loss": 0.1573835137526278,
+      "fps": 215.86187994483453,
+      "ms_per_image": 4.632591915976824,
+      "pred_fg_ratio_mean": 0.11082025079537701,
+      "boundary_iou": 0.5633132617326777
+    },
+    "deeplabv3_resnet50": {
+      "params": 39633729,
+      "ckpt": "/root/autodl-tmp/project-building/outputs/whu_deeplabv3_resnet50_seed42/checkpoints/best.pth",
+      "ckpt_epoch": 75,
+      "iou": 0.8810412885821205,
+      "dice": 0.9367591173357246,
+      "precision": 0.9358536766699909,
+      "recall": 0.9376663117302036,
+      "loss": 0.14148663297086783,
+      "fps": 119.00071295817835,
+      "ms_per_image": 8.403310998241164,
+      "pred_fg_ratio_mean": 0.11149597483754947,
+      "boundary_iou": 0.534359896297623
+    },
+    "ours_c_boundary": {
+      "params": 17915010,
+      "ckpt": "/root/autodl-tmp/project-building/outputs/whu_v2lite_boundary/checkpoints/best.pth",
+      "ckpt_epoch": 50,
+      "iou": 0.8986258960162143,
+      "dice": 0.9466065936441227,
+      "precision": 0.9479804553456157,
+      "recall": 0.9452367083209747,
+      "loss": 0.12550441693059572,
+      "fps": 179.53148478127193,
+      "ms_per_image": 5.5700536383260415,
+      "pred_fg_ratio_mean": 0.11095835830991631,
+      "boundary_iou": 0.6005904007452812
+    }
+  },
+  "selected_samples": [
+    {
+      "case": "small_buildings",
+      "case_label": "small buildings",
+      "id": "2_630",
+      "idx": 1344,
+      "unet_iou": 0.04003813155004403,
+      "deeplab_iou": 0.25389550868433586,
+      "ours_iou": 0.6777963271554427,
+      "viz_file": "small_buildings_2_630.png",
+      "box": [
+        410,
+        104,
+        49,
+        49
+      ],
+      "stats": {
+        "fg_ratio": 0.004001617431640625,
+        "num_cc": 3,
+        "mean_area": 349.6666666666667,
+        "max_area": 451.0,
+        "complexity": 0.24607438904660614
+      }
+    },
+    {
+      "case": "small_buildings",
+      "case_label": "small buildings",
+      "id": "2_568",
+      "idx": 1282,
+      "unet_iou": 0.4639673105325421,
+      "deeplab_iou": 0.48816568045531933,
+      "ours_iou": 0.7951414067877034,
+      "viz_file": "small_buildings_2_568.png",
+      "box": [
+        198,
+        91,
+        53,
+        62
+      ],
+      "stats": {
+        "fg_ratio": 0.0100555419921875,
+        "num_cc": 8,
+        "mean_area": 329.5,
+        "max_area": 775.0,
+        "complexity": 0.23693647103362314
+      }
+    },
+    {
+      "case": "dense_buildings",
+      "case_label": "dense buildings",
+      "id": "317",
+      "idx": 327,
+      "unet_iou": 0.3892341972546346,
+      "deeplab_iou": 0.26337376223043485,
+      "ours_iou": 0.5768071848562829,
+      "viz_file": "dense_buildings_317.png",
+      "box": [
+        194,
+        351,
+        194,
+        156
+      ],
+      "stats": {
+        "fg_ratio": 0.12828445434570312,
+        "num_cc": 15,
+        "mean_area": 2241.9333333333334,
+        "max_area": 9047.0,
+        "complexity": 0.07923290214337297
+      }
+    },
+    {
+      "case": "dense_buildings",
+      "case_label": "dense buildings",
+      "id": "2_1438",
+      "idx": 2152,
+      "unet_iou": 0.816095864518515,
+      "deeplab_iou": 0.8051459782492344,
+      "ours_iou": 0.8917699043063084,
+      "viz_file": "dense_buildings_2_1438.png",
+      "box": [
+        1,
+        37,
+        232,
+        196
+      ],
+      "stats": {
+        "fg_ratio": 0.2538795471191406,
+        "num_cc": 9,
+        "mean_area": 7394.777777777777,
+        "max_area": 29393.0,
+        "complexity": 0.039340351802306266
+      }
+    },
+    {
+      "case": "complex_boundary",
+      "case_label": "complex boundary",
+      "id": "451",
+      "idx": 461,
+      "unet_iou": 0.2228163265297028,
+      "deeplab_iou": 0.38576266301328793,
+      "ours_iou": 0.6713873918953329,
+      "viz_file": "complex_boundary_451.png",
+      "box": [
+        104,
+        0,
+        237,
+        138
+      ],
+      "stats": {
+        "fg_ratio": 0.026020050048828125,
+        "num_cc": 6,
+        "mean_area": 1136.8333333333333,
+        "max_area": 4890.0,
+        "complexity": 0.11351597417232206
+      }
+    },
+    {
+      "case": "complex_boundary",
+      "case_label": "complex boundary",
+      "id": "2_863",
+      "idx": 1577,
+      "unet_iou": 0.7484817813727304,
+      "deeplab_iou": 0.6432366162618933,
+      "ours_iou": 0.8160230803328006,
+      "viz_file": "complex_boundary_2_863.png",
+      "box": [
+        248,
+        335,
+        104,
+        66
+      ],
+      "stats": {
+        "fg_ratio": 0.0595550537109375,
+        "num_cc": 18,
+        "mean_area": 867.3333333333334,
+        "max_area": 3800.0,
+        "complexity": 0.1338518344222473
+      }
+    },
+    {
+      "case": "adhesive_buildings",
+      "case_label": "adjacent buildings",
+      "id": "2_1687",
+      "idx": 2401,
+      "unet_iou": 0.7130722559287432,
+      "deeplab_iou": 0.05742804213780755,
+      "ours_iou": 0.9720225285031622,
+      "viz_file": "adhesive_buildings_2_1687.png",
+      "box": [
+        107,
+        91,
+        368,
+        380
+      ],
+      "stats": {
+        "fg_ratio": 0.41216278076171875,
+        "num_cc": 6,
+        "mean_area": 18007.666666666668,
+        "max_area": 102030.0,
+        "complexity": 0.02016269478447534
+      }
+    },
+    {
+      "case": "adhesive_buildings",
+      "case_label": "adjacent buildings",
+      "id": "446",
+      "idx": 456,
+      "unet_iou": 0.9092380746767255,
+      "deeplab_iou": 0.8849447885758958,
+      "ours_iou": 0.9610705596055091,
+      "viz_file": "adhesive_buildings_446.png",
+      "box": [
+        430,
+        83,
+        82,
+        187
+      ],
+      "stats": {
+        "fg_ratio": 0.06988525390625,
+        "num_cc": 2,
+        "mean_area": 9160.0,
+        "max_area": 12210.0,
+        "complexity": 0.0487414990998795
+      }
+    }
+  ],
+  "outputs": {
+    "grid_png": "/root/autodl-tmp/project-building/outputs/whu_qualitative_strong_baseline/whu_strong_baseline_comparison.png",
+    "grid_pdf": "/root/autodl-tmp/project-building/outputs/whu_qualitative_strong_baseline/whu_strong_baseline_comparison.pdf",
+    "selected_samples_md": "/root/autodl-tmp/project-building/outputs/whu_qualitative_strong_baseline/selected_samples.md",
+    "preds_dir": "/root/autodl-tmp/project-building/outputs/whu_qualitative_strong_baseline/preds"
+  }
+}

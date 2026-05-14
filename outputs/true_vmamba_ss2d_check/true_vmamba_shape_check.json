@@ -1,0 +1,200 @@
+{
+  "C_full_simplified": {
+    "device": "cuda",
+    "global_branch_type": "simplified",
+    "input_shape": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "total_params": 17831777,
+    "trainable_params": 17831777,
+    "feature_shapes": {
+      "stem": [
+        1,
+        64,
+        256,
+        256
+      ],
+      "e1": [
+        1,
+        96,
+        128,
+        128
+      ],
+      "e2": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "e3": [
+        1,
+        384,
+        32,
+        32
+      ],
+      "e4": [
+        1,
+        512,
+        16,
+        16
+      ],
+      "d4": [
+        1,
+        256,
+        32,
+        32
+      ],
+      "d3": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "d2": [
+        1,
+        128,
+        128,
+        128
+      ],
+      "d1": [
+        1,
+        96,
+        256,
+        256
+      ]
+    },
+    "seg_logits_shape": [
+      1,
+      1,
+      512,
+      512
+    ],
+    "seg_has_nan": false,
+    "seg_has_inf": false,
+    "features_have_nan": {
+      "stem": false,
+      "e1": false,
+      "e2": false,
+      "e3": false,
+      "e4": false,
+      "d4": false,
+      "d3": false,
+      "d2": false,
+      "d1": false
+    },
+    "features_have_inf": {
+      "stem": false,
+      "e1": false,
+      "e2": false,
+      "e3": false,
+      "e4": false,
+      "d4": false,
+      "d3": false,
+      "d2": false,
+      "d1": false
+    },
+    "peak_memory_mb_dummy_batch1": 206.9501953125
+  },
+  "C_full_true_vmamba_ss2d": {
+    "device": "cuda",
+    "global_branch_type": "true_vmamba_ss2d",
+    "input_shape": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "total_params": 17843105,
+    "trainable_params": 17843105,
+    "feature_shapes": {
+      "stem": [
+        1,
+        64,
+        256,
+        256
+      ],
+      "e1": [
+        1,
+        96,
+        128,
+        128
+      ],
+      "e2": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "e3": [
+        1,
+        384,
+        32,
+        32
+      ],
+      "e4": [
+        1,
+        512,
+        16,
+        16
+      ],
+      "d4": [
+        1,
+        256,
+        32,
+        32
+      ],
+      "d3": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "d2": [
+        1,
+        128,
+        128,
+        128
+      ],
+      "d1": [
+        1,
+        96,
+        256,
+        256
+      ]
+    },
+    "seg_logits_shape": [
+      1,
+      1,
+      512,
+      512
+    ],
+    "seg_has_nan": false,
+    "seg_has_inf": false,
+    "features_have_nan": {
+      "stem": false,
+      "e1": false,
+      "e2": false,
+      "e3": false,
+      "e4": false,
+      "d4": false,
+      "d3": false,
+      "d2": false,
+      "d1": false
+    },
+    "features_have_inf": {
+      "stem": false,
+      "e1": false,
+      "e2": false,
+      "e3": false,
+      "e4": false,
+      "d4": false,
+      "d3": false,
+      "d2": false,
+      "d1": false
+    },
+    "peak_memory_mb_dummy_batch1": 323.31005859375
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "variants": {
+    "unet": {
+      "iou": 0.7851469707715508,
+      "dice": 0.879644066989292,
+      "precision": 0.8744858484162282,
+      "recall": 0.8848634988907573,
+      "loss": 0.30666345408709533,
+      "fps": 169.34802944372422,
+      "ms_per_image": 5.904999327626121,
+      "params": 7763041,
+      "best_epoch": 68
+    },
+    "A_local_only": {
+      "iou": 0.7878999376213813,
+      "dice": 0.8813691650659174,
+      "precision": 0.8770660082812364,
+      "recall": 0.8857147552751683,
+      "loss": 0.2996148854092266,
+      "fps": 178.93635185429858,
+      "ms_per_image": 5.588579344762008,
+      "params": 15994849,
+      "best_epoch": 73
+    },
+    "C_full": {
+      "iou": 0.7970706390546682,
+      "dice": 0.887077693811702,
+      "precision": 0.8800180640209558,
+      "recall": 0.8942515062962116,
+      "loss": 0.2813391600969101,
+      "fps": 180.4292600928013,
+      "ms_per_image": 5.542338307465562,
+      "params": 17831777,
+      "best_epoch": 70
+    }
+  },
+  "focus_cases": {
+    "small_buildings": {
+      "file": "small_buildings_tyrol-w36_00512_02560.png",
+      "id": "tyrol-w36_00512_02560",
+      "ious": {
+        "unet": 0.37578616293115386,
+        "A_local_only": 0.33199464480322,
+        "C_full": 0.6218274095892705
+      }
+    },
+    "complex_boundary": {
+      "file": "complex_boundary_tyrol-w23_01024_03584.png",
+      "id": "tyrol-w23_01024_03584",
+      "ious": {
+        "unet": 0.4346117866352457,
+        "A_local_only": 0.8912830556530297,
+        "C_full": 0.7779442050593626
+      }
+    },
+    "adhesive_buildings": {
+      "file": "adhesive_buildings_chicago24_01024_04608.png",
+      "id": "chicago24_01024_04608",
+      "ious": {
+        "unet": 0.32202818528583305,
+        "A_local_only": 0.9862202829576467,
+        "C_full": 0.8289565666571085
+      }
+    },
+    "dense_buildings": {
+      "file": "dense_buildings_vienna12_02560_00000.png",
+      "id": "vienna12_02560_00000",
+      "ious": {
+        "unet": 0.3799425817207497,
+        "A_local_only": 0.8603762078927012,
+        "C_full": 0.9306476090116247
+      }
+    }
+  }
+}

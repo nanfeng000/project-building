@@ -1,0 +1,92 @@
+{
+  "device": "cuda",
+  "total_params": 17843105,
+  "trainable_params": 17843105,
+  "seg_logits_shape": [
+    1,
+    1,
+    512,
+    512
+  ],
+  "seg_has_nan": false,
+  "seg_has_inf": false,
+  "feature_shapes": {
+    "stem": [
+      1,
+      64,
+      256,
+      256
+    ],
+    "e1": [
+      1,
+      96,
+      128,
+      128
+    ],
+    "e2": [
+      1,
+      192,
+      64,
+      64
+    ],
+    "e3": [
+      1,
+      384,
+      32,
+      32
+    ],
+    "e4": [
+      1,
+      512,
+      16,
+      16
+    ],
+    "d4": [
+      1,
+      256,
+      32,
+      32
+    ],
+    "d3": [
+      1,
+      192,
+      64,
+      64
+    ],
+    "d2": [
+      1,
+      128,
+      128,
+      128
+    ],
+    "d1": [
+      1,
+      96,
+      256,
+      256
+    ]
+  },
+  "features_have_nan": {
+    "stem": false,
+    "e1": false,
+    "e2": false,
+    "e3": false,
+    "e4": false,
+    "d4": false,
+    "d3": false,
+    "d2": false,
+    "d1": false
+  },
+  "features_have_inf": {
+    "stem": false,
+    "e1": false,
+    "e2": false,
+    "e3": false,
+    "e4": false,
+    "d4": false,
+    "d3": false,
+    "d2": false,
+    "d1": false
+  },
+  "peak_memory_mb_dummy_batch1": 257.68505859375
+}
